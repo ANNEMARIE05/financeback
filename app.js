@@ -5,7 +5,6 @@ import UserRouters from "./Routes/user.js";
 import dotenv from "dotenv";
 
 dotenv.config();
-console.log(process.env.bnjour);
 
 const PORT = 3000;
 
