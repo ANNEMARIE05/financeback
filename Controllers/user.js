@@ -1,5 +1,7 @@
 import User from "../Models/user.js";
 import { hash } from "../utils/hash.js";
+import bcrypt from "bcrypt"
+import { createSecretToken } from "../utils/secretToken.js";
 class UserControllers {
   
   static async createUser(req, res) {
